@@ -7,6 +7,4 @@
 	3) Acesse o console do administrador do Wildfly
 	4) Crie uma conexão do servidor com banco de dados vá em _Configuration -> Subsystem -> Datasources -> NON-XA -> H2 -> name: sefazDS e JNDI: java:/sefazDS_
 	
-	
-	
 </p>
