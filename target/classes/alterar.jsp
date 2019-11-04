@@ -91,18 +91,18 @@ function validar() {
 		<div class="form-group">
 			<label for="Nome">Nome </label> <input type="text"
 				class="form-control" id="nome" name="nome"
-				value="<%=usuario.getNome()%>">
+				value="<%=usuario.getNome()%>" required>
 		</div>
 		<div class="form-group">
 			<label for="email">Email </label> <input type="email"
 				class="form-control" id="email" aria-describedby="emailHelp"
 				name="email" placeholder="informe o email"
-				value="<%=usuario.getEmail()%>">
+				value="<%=usuario.getEmail()%>" required>
 		</div>
 		<div class="form-group">
 			<label for="senha">Senha</label> <input name="senha" type="password"
 				class="form-control" id="senha" placeholder="Senha"
-				value="<%=usuario.getSenha()%>">
+				value="<%=usuario.getSenha()%>" required>
 		</div>
 
 		<button type="submit" class="btn btn-primary">Alterar</button>
